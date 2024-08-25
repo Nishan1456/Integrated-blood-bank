@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color:#880808;
+}
+
+
+.container
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height: 80vh;
+    background-color:#941c1c;
+    padding: 10px;  
+    flex-wrap: wrap;
+    margin: 5vh 20vw;
+    box-shadow: grey 1px 2px 3px 1px;
+    border-radius: 5px;
+}
+.container .box{
+    position: relative;
+    width: 130px;
+ 
+    height: 190px;
+    margin:0px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px rgb(29, 27, 27) ;
+    overflow: hidden;
+}
+.box img{
+    position: relative;
+    right: 15px;
+    width: 150px;
+    height: 120px;
+}
+.box h1{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #880808;
+    
+}
+.box p{
+    position: relative;
+    bottom: 36px;
+    color: #880808;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.box p .val
+{
+ font-size: 16px;
+ font-weight: bold;
+}
+.box h4
+{
+    text-align: center;
+    font-size: 18px;
+    color: #880808;
+}
+.profile {
+    width: 160px;
+    height: 100px;
+    margin-left: 980px;
+    
+}
+
+.profile .pro-img {
+    width: 60px;
+    height: 38px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+.profile p {
+    color: rgb(245, 242, 242);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+.profile .btn {
+    /* display: inline-block; */
+    position: relative;
+    top: 10px;
+    right: 3px;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    background:#fff;
+    color: #000;
+    margin: 0 5px;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.profile .btn:hover {
+    box-shadow: rgb(94, 93, 93) 1px 2px 2px;
+}

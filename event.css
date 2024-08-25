@@ -1,0 +1,71 @@
+red * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 80vh;
+  width: 100%;
+  /* background-color: rgb(48, 17, 158); */
+}
+.container .content {
+  margin-top: 30px;
+  height: 76vh;
+  width: 70%;
+  border-radius: 8px;
+  overflow-y: scroll;
+  padding: 15px;
+}
+.box {
+
+  margin: 20px;
+  height: 32vh;
+  width: 95%;
+   color: #fff;
+  border-radius: 8px;
+
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.box .detail
+{
+  margin: 5px;
+  padding: 8px;
+
+}
+.box .location
+{
+  font-size: 30px;
+  padding: 3px 0;
+}
+.box .orgainizer
+{
+  font-size: 22px;
+  padding-bottom: 4px ;
+}
+h1
+{
+  text-align: center;
+  text-decoration: underline;
+  color: #880808;
+}
+.box .btn button
+{
+  background-color: #195219;
+  font-size: 18px;
+  padding: 6px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.box .btn button:hover{
+  background-color: #154715;
+  box-shadow: 1px 2px 1px #111;
+}
